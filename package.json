@@ -1,6 +1,6 @@
 {
   "name": "cli-desktop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "cli desktop soignemoi",
   "main": "main.js",
   "author": "Sébastien Monterisi <sebastienmonterisi@yahoo.fr>",

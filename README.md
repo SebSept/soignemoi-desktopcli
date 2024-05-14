@@ -32,15 +32,18 @@ docker run --rm -ti \
 - puis `./node_modules/.bin/electron-builder` ou `./node_modules/.bin/electron-builder -w` pour windows (options `-mwl` pour compiler pour toutes les plateformes (mac ne doit fonctionner que sous mac.))
 - les binaires sont disponibles dans ./dist (il faudrat changer les droits sous linux)
 
+Il y a beaucoup de cache qui peuvent être supprimés à la fin de la construction.
+- `rm -rf ~/.cache/electron*`
+
 ### Build avec electron-forge
 
-Option abandonnée.
+**Option abandonnée.**
 
 Cette option necessite l'installation de packages supplémentaires (node et sur la machine). Ça ne permet que la génération de binaires linux (sur ma machine linux). 
 
 ### Action GitHub
 
-Option abandonnée.
+**Option abandonnée.**
 
 Les actions github disponibles ne sont pas à jour, ne fonctionne pas et ne sont pas configurables pour fonctionner (passer à node 20 et mettre à jour la version la version de l'action)
 
