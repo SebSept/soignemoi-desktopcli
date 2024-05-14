@@ -9,8 +9,10 @@ const createWindow = () => {
         }
     })
 
-    win.loadURL('https://www.electronjs.org/docs/latest/tutorial/quick-start')
+    // @todo mettre l'url de prod
     // win.loadURL('http://localhost:32768')
+    // pour l'exemple :
+    win.loadURL('https://www.electronjs.org/docs/latest/tutorial/quick-start')
 }
 
 app.whenReady().then(() => {
