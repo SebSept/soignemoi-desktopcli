@@ -7,8 +7,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "electron": "^30.0.4",
-    "electron-builder": "^24.13.3"
+    "electron": "^30.0.4"
   },
   "scripts": {
     "start": "electron ."
