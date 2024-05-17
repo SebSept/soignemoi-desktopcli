@@ -9,10 +9,8 @@ const createWindow = () => {
         }
     })
 
-    // @todo mettre l'url de prod
-    // win.loadURL('http://localhost:32768')
-    // pour l'exemple :
-    win.loadURL('https://www.electronjs.org/docs/latest/tutorial/quick-start')
+    win.setMenu(null)
+    win.loadURL('http://cli.ecf.seb7.fr/')
 }
 
 app.whenReady().then(() => {
