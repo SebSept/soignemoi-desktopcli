@@ -10,7 +10,7 @@ const createWindow = () => {
     })
 
     win.setMenu(null)
-    win.loadURL('http://cli.ecf.seb7.fr/')
+    win.loadURL('https://cli.ecf.seb7.fr/')
 }
 
 app.whenReady().then(() => {
